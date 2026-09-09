@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,th,tfoot {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Tables</h1>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Marksheet</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject/Student</th>
+                    <th>Maths</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                    <th>Science</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mansi</td>
+                    <td>90</td>
+                    <td>88</td>
+                    <td>90</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>Riju</td>
+                    <td>88</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>Ruhi</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>88</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>Ladoo</td>
+                    <td>83</td>
+                    <td>87</td>
+                    <td>89</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
+<tfoot>
+    <th> Total</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+</tfoot>
+            <caption>Students Score</caption>
+        </table>
+    </div>
+    <div>
+        <table>
+            <h2>Rowspan and Colspan</h2>
+            <thead>
+                <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" style="text-align: center">Average</th>
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+            </tbody>
+            <caption>A Test table With Merge Cell</caption>
+        </table>
+    </div>
+</body>
+
+</html>

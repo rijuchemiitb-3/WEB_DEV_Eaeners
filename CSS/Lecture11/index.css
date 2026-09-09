@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#wrapper {
+    /* background: linear-gradient(to right,red,blue); */
+    /* background: linear-gradient(45deg,red,blue,yellow); */
+
+    /* background: radial-gradient(circle,red,blue); */
+
+    /* background: conic-gradient(red,yellow,green); */
+
+    /* background-image: url(https://tse4.mm.bing.net/th/id/OIP.owg3tVj2c71DZcTNjVDABAHaKc?r=0&rs=1&pid=ImgDetMain&o=7&rm=3); */
+
+    /* border: 1px solid black; */
+    /* background-repeat: no-repeat; */
+    /* background-position: bottom; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: navy; */
+
+    border: 6px solid red;
+    border-top: 2px solid blue;
+
+    border-radius: 12%;
+    border-top-left-radius: 0px;
+
+    padding: 40px;
+
+    /* height: 500px; */
+
+    margin: 20px;
+
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+p {
+    /* padding: top right bottom left; */
+
+    border: 1px solid black;
+    /* padding: 40px 0 0 0; */
+
+    /* padding: top leftright bottom; */
+    padding: 0 40px 0;
+}
+
+h1 {
+    /* background-color: rgba(141, 77, 48, 0.478); */
+    font-size: 80px;
+    /* box-sizing: content-box; */
+    border: 1px solid red;
+    padding: 50px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+#riju {
+    border: 2px dotted red;
+    margin: auto;
+}
+
+#hi {
+    border: 2px dotted red;
+    width: 50px;
+    margin: auto;
+}
+
+span {
+    display: inline-block;
+    border: 2px solid red;
+    /* margin: auto; */
+    /* margin-left: 40px; */
+    /* padding: 10px; */
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+}
+
+#ladoo {
+    /* padding: 4px; */
+    border: 1px solid black;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pete's Pizza</title>
+    <!-- <style>
+        .size {
+            display: inline-block;
+            vertical-align: top;
+            width: 220px;
+            height: 100px;
+            margin-right: 15px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div style="text-align: center">
+        <h2>Pete's Pizza Delivery</h2>
+        <h3>Online Order Form</h3>
+        <h5><b>*</b> required fields</h5>
+    </div>
+    <div>
+        <form action="orderconfirm.html" target="_blank">
+            <div>
+                <fieldset>
+                    <legend>Customer Detalis</legend>
+                    <table>
+                        <tr>
+                            <td><label for="name">*Name : </label></td>
+                            <td><input type="text" id="name" placeholder="Enter Your Name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">*Address : </label></td>
+                            <td><input type="text" id="address" placeholder="Enter Your Full Address" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="city">*Town/City : </label></td>
+                            <td><input type="text" id="city" placeholder="Enter Your Town/City" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pin">*Postcode : </label></td>
+                            <td><input type="number" id="pin" min="0" placeholder="Enter Postcode" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mobile">*Tel : </label></td>
+                            <td><input type="number" id="mobile" min="0" placeholder="Enter Telephone Number" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">*Email: </label></td>
+                            <td><input type="email" id="email" min="0" placeholder="Enter Your mail" required></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+            <div white-space:nowrap;>
+                <table>
+                    <tr>
+                        <td>
+                            <fieldset class="size">
+                                <legend for="topping">Topping*</legend>
+                                <input type="radio" id="margherita" name="topping">
+                                <label for="margherita">Margherita </label><br>
+                                <input type="radio" id="fourseasons" name="topping">
+                                <label for="fourseasons">Four Seasons </label><br>
+                                <input type="radio" id="meatfeast" name="topping">
+                                <label for="meatfeast">Meat Feast </label>
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset class="size">
+                                <legend for="size">Size*</legend>
+                                <input type="radio" id="small" name="size">
+                                <label for="small">Small </label><br>
+                                <input type="radio" id="medium" name="size">
+                                <label for="medium">Medium </label><br>
+                                <input type="radio" id="large" name="size">
+                                <label for="large">Large </label>
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset class="size">
+                                <legend for="extra">Extras</legend>
+                                <input type="checkbox" id="mushrooms" name="extra">
+                                <label for="mushrooms">Mushrooms </label>
+                                <br>
+                                <input type="checkbox" id="greenpeppers" name="extra">
+                                <label for="greenpeppers">Green Peppers </label>
+                                <br>
+                                <input type="checkbox" id="anchovies" name="extra">
+                                <label for="anchovies">Anchovies </label>
+                                <br>
+                                <input type="checkbox" id="extrachees" name="extra">
+                                <label for="extrachees">Extra Chees </label>
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Delivery</legend>
+                    <label for="time">Preferred delivery time: </label>
+                    <input type="time" id="time">
+                    <br><br>
+                    <label for="instruction">Delivery instruction: </label><br>
+                    <textarea name="instruction" id="instruction" rows="5" cols="40"></textarea>
+                </fieldset>
+            </div>
+            <br><br>
+            <div style="text-align: center;">
+                <button type="submit" style="text-align: center"> Submit order</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

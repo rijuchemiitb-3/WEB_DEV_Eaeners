@@ -1,0 +1,52 @@
+#riju {
+    font-family: "Playwrite ID", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#bachhoo {
+    font-size: 50px;
+}
+
+/* p {
+    font-size: 24px;
+    font-weight: bolder;
+} */
+
+#ladoo {
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+
+#hello {
+    text-align: center;
+    border: 1px solid red;
+}
+
+span {
+    text-align: center;
+    /* border: 1px solid red; */
+    /* display: block; */
+    text-decoration: underline dotted;
+    text-decoration: overline;
+    text-decoration: underline wavy;
+
+    text-transform: uppercase;
+}
+
+#name {
+    text-indent: 50px;
+    text-shadow: -1px -1px 10px crimson;
+}
+
+#color {
+    color: #0000ff;
+    color: red;
+    color: rgb(255.9.71);
+    color: rgba(44, 44, 185, 0.6);
+    color: hsl(359, 50%, 40%);
+}

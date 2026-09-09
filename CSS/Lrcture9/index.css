@@ -1,0 +1,32 @@
+span {
+    color: crimson;
+}
+
+h3, span {
+    color: rgb(165, 43, 165);
+}
+
+.hello {
+    color: rgb(163, 152, 87);
+}
+
+#peppe {
+    color: darkgreen;
+    background-color: rgb(226, 215, 215);
+}
+
+h1 {
+    color: hotpink;
+}
+
+.me {
+    color: goldenrod;
+}
+
+#nova {
+    color: blue;
+}
+
+/* * {
+    color: orange;
+} */

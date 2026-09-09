@@ -1,0 +1,30 @@
+// function outer() {
+//     const a = 5;
+//     function inner() {
+//         console.log(a);
+//     }
+    
+//     return inner;
+// }
+
+// const response = outer();
+// console.log(outer);
+// console.log(response);
+// response()
+
+
+
+function outer() {
+    let count = 0;
+    function counter() {
+        count = count + 1;
+        console.log(count);
+    }
+
+    return counter
+}
+
+const counter1 = outer();
+const counter2 = outer();
+counter1();
+counter2();
